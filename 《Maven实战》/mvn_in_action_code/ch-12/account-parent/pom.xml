@@ -14,8 +14,8 @@
 		<module>account-web</module>
 	</modules>
 	<properties>
-		<springframework.version>2.5.6</springframework.version>
-		<junit.version>4.7</junit.version>
+		<springframework.version>4.3.8.RELEASE</springframework.version>
+		<junit.version>4.11</junit.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -72,5 +72,5 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
-	</build>	
+	</build>
 </project>
