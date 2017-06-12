@@ -11,15 +11,14 @@
 	<name>Account Captcha</name>
 
 	<properties>
-		<kaptcha.version>2.3</kaptcha.version>
+		<kaptcha.version>2.3.2</kaptcha.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>com.google.code.kaptcha</groupId>
+			<groupId>com.github.penggle</groupId>
 			<artifactId>kaptcha</artifactId>
 			<version>${kaptcha.version}</version>
-			<classifier>jdk15</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -38,18 +37,4 @@
 			<artifactId>junit</artifactId>
 		</dependency>
 	</dependencies>
-
-	<repositories>
-		<repository>
-			<id>sonatype-forge</id>
-			<name>Sonatype Forge</name>
-			<url>http://repository.sonatype.org/content/groups/forge/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
 </project>
