@@ -12,8 +12,6 @@
 	<name>Account Email</name>
 
 	<properties>
-		<springframework.version>4.3.8.RELEASE</springframework.version>
-		<junit.version>4.11</junit.version>
 		<javax.mail.version>1.4.7</javax.mail.version>
 		<com.icegreen.greenmail.version>1.5.5</com.icegreen.greenmail.version>
 	</properties>
@@ -38,7 +36,6 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
